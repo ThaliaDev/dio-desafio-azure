@@ -1,5 +1,5 @@
 ## Explorando o Machine Learning Automatizado no Azure Machine Learning
----
+
 Nesse repositório será demonstrado um passo a passo para a utilização do Azure Machine Learning, realizando a configuração de um modelo, conjunto de dados, teste do modelo e apresentação dos resultados. 
 
 #### Pré-requisitos
