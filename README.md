@@ -3,13 +3,10 @@
 Nesse repositório será demonstrado um passo a passo para a utilização do Azure Machine Learning, realizando a configuração de um modelo, conjunto de dados, teste do modelo e apresentação dos resultados. 
 
 #### Pré-requisitos
----
 Temos como pré-requisito a criação uma conta gratuita na Azure ou disponibilidade de créditos para uso.
 
 ### Tutorial
----
 #### Criando um recurso
----
 O primeiro passo é fazer a criação de um recurso no [Portal Azure](https://portal.azure.com/), logo na página principal já temos um botão destinado a criação do recurso.
 
 ![Criando um recurso](https://i.imgur.com/mAcyJQE.png)
@@ -37,7 +34,6 @@ Após clicar em Criar, será aberta uma página para preenchimento das informaç
 
 
 #### Acessando o recurso
----
 Depois de criado, podemos acessar o recurso criado através do [Portal Azure](https://portal.azure.com/):
 
 ![Página de criação do recurso](https://i.imgur.com/n31UqPJ.png)
@@ -49,7 +45,6 @@ Na imagem abaixo podemos ver a página principal e também as principais guias q
 ![Pagina Principal do Estúdio](https://i.imgur.com/5KRdiRa.png)
 
 ##### 1° Execução: Criar o modelo automatizado
----
 Clique em ML Automatizado e insira as seguintes configurações.
 Em configurações básicas:
 
@@ -79,7 +74,6 @@ O conjunto de dados contém dados multilinhas : não selecione
 Esquema: Incluir todas as colunas exceto Caminho
 ```
 ##### 2° Execução: Verificar o job
----
 Após criar o modelo automatizado e ele ser executado com sucesso, podemos ver na aba **Jobs** seu _status_ e também o melhor modelo definido.
 
 ![Tarefa executada](https://i.imgur.com/J9n45Op.png)
@@ -91,7 +85,6 @@ Clicando no **nome do algoritmo**, seremos direcionados para a página do modelo
 Se entrarmos na aba **Modelos**, poderemos ver esse modelo que implantamos.
 
 ##### 3° Execução: Testar o modelo
----
 Na aba Pontos de extremidade, é possível ver nosso _endpoint_ e verificar se ele já está executando com sucesso, para isso checamos os seguintes pontos. Se estiver com _status_ de _running_, será necessário aguardar até ficar como _succeeded_, caso contrário não será possível testar o modelo.
 
 ![Status](https://i.imgur.com/eGZzCHu.png)
